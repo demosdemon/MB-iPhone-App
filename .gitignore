@@ -3,7 +3,10 @@
 build/*
 *.pbxuser
 *.mode1v3
+*.xcworkspace
+xcuserdata/*
 
 # osx
 .DS-Store
+.DS_Store
 profile

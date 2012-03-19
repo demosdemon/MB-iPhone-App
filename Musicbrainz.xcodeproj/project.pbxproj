@@ -307,12 +307,12 @@
 		5D2567FE1516BE4500E03ACF /* PayPal */ = {
 			isa = PBXGroup;
 			children = (
-				5D2567FF1516BE4500E03ACF /* libPayPalMEP.a */,
 				5D2568001516BE4500E03ACF /* MEPAddress.h */,
 				5D2568011516BE4500E03ACF /* MEPAmounts.h */,
 				5D2568021516BE4500E03ACF /* PayPal.h */,
 				5D2568031516BE4500E03ACF /* PayPalContext.h */,
 				5D2568041516BE4500E03ACF /* PayPalMEPPayment.h */,
+				5D2567FF1516BE4500E03ACF /* libPayPalMEP.a */,
 			);
 			path = PayPal;
 			sourceTree = "<group>";
@@ -324,8 +324,8 @@
 				5D25689A1516CFCE00E03ACF /* LICENSE */,
 				5D25689B1516CFCE00E03ACF /* README */,
 				5D2568181516CB1000E03ACF /* Headers */,
-				5D25682F1516CB1000E03ACF /* libzbar.a */,
 				5D2568301516CB1000E03ACF /* Resources */,
+				5D25682F1516CB1000E03ACF /* libzbar.a */,
 			);
 			path = ZBarSDK;
 			sourceTree = "<group>";
@@ -387,10 +387,10 @@
 		5D2568451516CE6C00E03ACF /* Parser */ = {
 			isa = PBXGroup;
 			children = (
-				5D2568461516CE6C00E03ACF /* AbstractXMLParser.h */,
-				5D2568471516CE6C00E03ACF /* AbstractXMLParser.m */,
 				5D2568481516CE6C00E03ACF /* LookUpParser */,
 				5D2568531516CE6C00E03ACF /* QueryParser */,
+				5D2568461516CE6C00E03ACF /* AbstractXMLParser.h */,
+				5D2568471516CE6C00E03ACF /* AbstractXMLParser.m */,
 			);
 			path = Parser;
 			sourceTree = SOURCE_ROOT;
@@ -445,13 +445,13 @@
 			children = (
 				5D2568A01516CFDF00E03ACF /* Detail Pages */,
 				5D2568AB1516CFDF00E03ACF /* Detail Subpages */,
+				5D2568B81516CFDF00E03ACF /* Search Result Views */,
 				5D2568B21516CFDF00E03ACF /* DonateViewController.h */,
 				5D2568B31516CFDF00E03ACF /* DonateViewController.m */,
 				5D2568B41516CFDF00E03ACF /* LoginViewController.h */,
 				5D2568B51516CFDF00E03ACF /* LoginViewController.m */,
 				5D2568B61516CFDF00E03ACF /* MainMenuController.h */,
 				5D2568B71516CFDF00E03ACF /* MainMenuController.m */,
-				5D2568B81516CFDF00E03ACF /* Search Result Views */,
 				5D2568C11516CFDF00E03ACF /* TypeSelectionController.h */,
 				5D2568C21516CFDF00E03ACF /* TypeSelectionController.m */,
 			);

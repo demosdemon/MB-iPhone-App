@@ -1,0 +1,6 @@
+[submodule "submodules/libmusicbrainz-objc"]
+	path = submodules/libmusicbrainz-objc
+	url = git://github.com/demosdemon/libmusicbrainz-objc.git
+[submodule "submodules/zbarsdk"]
+	path = submodules/zbarsdk
+	url = git://github.com/demosdemon/zbarsdk.git

@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D2567FC1516B9AF00E03ACF /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D2567FB1516B9AF00E03ACF /* MainWindow-iPad.xib */; };
+		5D2568C31516CFDF00E03ACF /* ArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568A21516CFDF00E03ACF /* ArtistViewController.m */; };
+		5D2568C41516CFDF00E03ACF /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568A41516CFDF00E03ACF /* LabelViewController.m */; };
+		5D2568C51516CFDF00E03ACF /* ReleaseContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568A61516CFDF00E03ACF /* ReleaseContoller.m */; };
+		5D2568C61516CFDF00E03ACF /* ReleaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568A81516CFDF00E03ACF /* ReleaseViewController.m */; };
+		5D2568C71516CFDF00E03ACF /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568AA1516CFDF00E03ACF /* TrackViewController.m */; };
+		5D2568C81516CFDF00E03ACF /* AddTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568AD1516CFDF00E03ACF /* AddTagViewController.m */; };
+		5D2568C91516CFDF00E03ACF /* RatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568AF1516CFDF00E03ACF /* RatingViewController.m */; };
+		5D2568CA1516CFDF00E03ACF /* TagListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568B11516CFDF00E03ACF /* TagListViewController.m */; };
+		5D2568CB1516CFDF00E03ACF /* DonateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568B31516CFDF00E03ACF /* DonateViewController.m */; };
+		5D2568CC1516CFDF00E03ACF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568B51516CFDF00E03ACF /* LoginViewController.m */; };
+		5D2568CD1516CFDF00E03ACF /* MainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568B71516CFDF00E03ACF /* MainMenuController.m */; };
+		5D2568CE1516CFDF00E03ACF /* ArtistSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568BA1516CFDF00E03ACF /* ArtistSearchController.m */; };
+		5D2568CF1516CFDF00E03ACF /* LabelSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568BC1516CFDF00E03ACF /* LabelSearchController.m */; };
+		5D2568D01516CFDF00E03ACF /* ReleaseGroupSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568BE1516CFDF00E03ACF /* ReleaseGroupSearchController.m */; };
+		5D2568D11516CFDF00E03ACF /* ReleaseSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568C01516CFDF00E03ACF /* ReleaseSearchController.m */; };
+		5D2568D21516CFDF00E03ACF /* TypeSelectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568C21516CFDF00E03ACF /* TypeSelectionController.m */; };
+		5D2568D81516D03600E03ACF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568D41516D03600E03ACF /* main.m */; };
+		5D2568D91516D03600E03ACF /* StringEditTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2568D71516D03600E03ACF /* StringEditTableCell.m */; };
+		5D2568E21516D06400E03ACF /* albumcover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D2568DB1516D06400E03ACF /* albumcover.jpg */; };
+		5D2568E31516D06400E03ACF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2568DC1516D06400E03ACF /* icon.png */; };
+		5D2568E41516D06400E03ACF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D2568DD1516D06400E03ACF /* MainWindow.xib */; };
+		5D2568E61516D06400E03ACF /* MusicBrainzLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2568DF1516D06400E03ACF /* MusicBrainzLogo.png */; };
+		5D2568E71516D06400E03ACF /* ratedStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2568E01516D06400E03ACF /* ratedStar.png */; };
+		5D2568E81516D06400E03ACF /* unratedStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D2568E11516D06400E03ACF /* unratedStar.png */; };
+		5D99C87615D050E200AA7847 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D99C86615D04F0900AA7847 /* UIKit.framework */; };
+		5D99C87715D050E200AA7847 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D99C86715D04F0900AA7847 /* Foundation.framework */; };
+		5D99C87815D050E200AA7847 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D99C86815D04F0900AA7847 /* CFNetwork.framework */; };
+		5D99C87915D050E200AA7847 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D99C86915D04F0900AA7847 /* SystemConfiguration.framework */; };
+		5D99C87A15D050E200AA7847 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D99C86A15D04F0900AA7847 /* Security.framework */; };
+		5D99C87B15D050E200AA7847 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D99C86B15D04F0900AA7847 /* MobileCoreServices.framework */; };
+		5D99C87C15D050E200AA7847 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D99C86C15D04F0900AA7847 /* libxml2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D99C84F15D04E8100AA7847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D99C84215D04E8100AA7847 /* libmusicbrainz-objc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D61B7CB155F3F9A0003006A;
+			remoteInfo = "libmusicbrainz-iphoneos";
+		};
+		5D99C85115D04E8100AA7847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D99C84215D04E8100AA7847 /* libmusicbrainz-objc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D5D03BA158103DD00E8A525;
+			remoteInfo = "libmusicbrainz-macos";
+		};
+		5D99C85315D04E8100AA7847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D99C84215D04E8100AA7847 /* libmusicbrainz-objc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D82781015AD22C200B4A8EB;
+			remoteInfo = "libmusicbrainz-objc-iphoneos-test";
+		};
+		5D99C85515D04E9100AA7847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D99C84215D04E8100AA7847 /* libmusicbrainz-objc.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D61B7CA155F3F9A0003006A;
+			remoteInfo = "libmusicbrainz-iphoneos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D6058910D05DD3D006BFB54 /* Musicbrainz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musicbrainz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2567FB1516B9AF00E03ACF /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		5D2568A11516CFDF00E03ACF /* ArtistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistViewController.h; sourceTree = "<group>"; };
+		5D2568A21516CFDF00E03ACF /* ArtistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistViewController.m; sourceTree = "<group>"; };
+		5D2568A31516CFDF00E03ACF /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
+		5D2568A41516CFDF00E03ACF /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
+		5D2568A51516CFDF00E03ACF /* ReleaseContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseContoller.h; sourceTree = "<group>"; };
+		5D2568A61516CFDF00E03ACF /* ReleaseContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseContoller.m; sourceTree = "<group>"; };
+		5D2568A71516CFDF00E03ACF /* ReleaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseViewController.h; sourceTree = "<group>"; };
+		5D2568A81516CFDF00E03ACF /* ReleaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseViewController.m; sourceTree = "<group>"; };
+		5D2568A91516CFDF00E03ACF /* TrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackViewController.h; sourceTree = "<group>"; };
+		5D2568AA1516CFDF00E03ACF /* TrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackViewController.m; sourceTree = "<group>"; };
+		5D2568AC1516CFDF00E03ACF /* AddTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTagViewController.h; sourceTree = "<group>"; };
+		5D2568AD1516CFDF00E03ACF /* AddTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTagViewController.m; sourceTree = "<group>"; };
+		5D2568AE1516CFDF00E03ACF /* RatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingViewController.h; sourceTree = "<group>"; };
+		5D2568AF1516CFDF00E03ACF /* RatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingViewController.m; sourceTree = "<group>"; };
+		5D2568B01516CFDF00E03ACF /* TagListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListViewController.h; sourceTree = "<group>"; };
+		5D2568B11516CFDF00E03ACF /* TagListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagListViewController.m; sourceTree = "<group>"; };
+		5D2568B21516CFDF00E03ACF /* DonateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonateViewController.h; sourceTree = "<group>"; };
+		5D2568B31516CFDF00E03ACF /* DonateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonateViewController.m; sourceTree = "<group>"; };
+		5D2568B41516CFDF00E03ACF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		5D2568B51516CFDF00E03ACF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		5D2568B61516CFDF00E03ACF /* MainMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuController.h; sourceTree = "<group>"; };
+		5D2568B71516CFDF00E03ACF /* MainMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuController.m; sourceTree = "<group>"; };
+		5D2568B91516CFDF00E03ACF /* ArtistSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtistSearchController.h; sourceTree = "<group>"; };
+		5D2568BA1516CFDF00E03ACF /* ArtistSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtistSearchController.m; sourceTree = "<group>"; };
+		5D2568BB1516CFDF00E03ACF /* LabelSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelSearchController.h; sourceTree = "<group>"; };
+		5D2568BC1516CFDF00E03ACF /* LabelSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelSearchController.m; sourceTree = "<group>"; };
+		5D2568BD1516CFDF00E03ACF /* ReleaseGroupSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseGroupSearchController.h; sourceTree = "<group>"; };
+		5D2568BE1516CFDF00E03ACF /* ReleaseGroupSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseGroupSearchController.m; sourceTree = "<group>"; };
+		5D2568BF1516CFDF00E03ACF /* ReleaseSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseSearchController.h; sourceTree = "<group>"; };
+		5D2568C01516CFDF00E03ACF /* ReleaseSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseSearchController.m; sourceTree = "<group>"; };
+		5D2568C11516CFDF00E03ACF /* TypeSelectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeSelectionController.h; sourceTree = "<group>"; };
+		5D2568C21516CFDF00E03ACF /* TypeSelectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeSelectionController.m; sourceTree = "<group>"; };
+		5D2568D41516D03600E03ACF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D2568D51516D03600E03ACF /* Musicbrainz_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Musicbrainz_Prefix.pch; sourceTree = "<group>"; };
+		5D2568D61516D03600E03ACF /* StringEditTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringEditTableCell.h; sourceTree = "<group>"; };
+		5D2568D71516D03600E03ACF /* StringEditTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringEditTableCell.m; sourceTree = "<group>"; };
+		5D2568DB1516D06400E03ACF /* albumcover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = albumcover.jpg; sourceTree = "<group>"; };
+		5D2568DC1516D06400E03ACF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		5D2568DD1516D06400E03ACF /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		5D2568DE1516D06400E03ACF /* Musicbrainz-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Musicbrainz-Info.plist"; sourceTree = "<group>"; };
+		5D2568DF1516D06400E03ACF /* MusicBrainzLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MusicBrainzLogo.png; sourceTree = "<group>"; };
+		5D2568E01516D06400E03ACF /* ratedStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ratedStar.png; sourceTree = "<group>"; };
+		5D2568E11516D06400E03ACF /* unratedStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unratedStar.png; sourceTree = "<group>"; };
+		5D99C84215D04E8100AA7847 /* libmusicbrainz-objc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "libmusicbrainz-objc.xcodeproj"; path = "submodules/libmusicbrainz-objc/libmusicbrainz-objc.xcodeproj"; sourceTree = "<group>"; };
+		5D99C86615D04F0900AA7847 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5D99C86715D04F0900AA7847 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D99C86815D04F0900AA7847 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		5D99C86915D04F0900AA7847 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		5D99C86A15D04F0900AA7847 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		5D99C86B15D04F0900AA7847 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		5D99C86C15D04F0900AA7847 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D99C87615D050E200AA7847 /* UIKit.framework in Frameworks */,
+				5D99C87715D050E200AA7847 /* Foundation.framework in Frameworks */,
+				5D99C87815D050E200AA7847 /* CFNetwork.framework in Frameworks */,
+				5D99C87915D050E200AA7847 /* SystemConfiguration.framework in Frameworks */,
+				5D99C87A15D050E200AA7847 /* Security.framework in Frameworks */,
+				5D99C87B15D050E200AA7847 /* MobileCoreServices.framework in Frameworks */,
+				5D99C87C15D050E200AA7847 /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Musicbrainz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				5D25689F1516CFDF00E03ACF /* ViewController */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				5D2568D31516D03600E03ACF /* Other Sources */,
+				5D2568DA1516D06400E03ACF /* Resources */,
+				5D2567FA1516B9AF00E03ACF /* iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				5D99C84015D04E6800AA7847 /* Submodules */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D99C86D15D04F0900AA7847 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D2567FA1516B9AF00E03ACF /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				5D2567FB1516B9AF00E03ACF /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		5D25689F1516CFDF00E03ACF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D2568A01516CFDF00E03ACF /* Detail Pages */,
+				5D2568AB1516CFDF00E03ACF /* Detail Subpages */,
+				5D2568B81516CFDF00E03ACF /* Search Result Views */,
+				5D2568B21516CFDF00E03ACF /* DonateViewController.h */,
+				5D2568B31516CFDF00E03ACF /* DonateViewController.m */,
+				5D2568B41516CFDF00E03ACF /* LoginViewController.h */,
+				5D2568B51516CFDF00E03ACF /* LoginViewController.m */,
+				5D2568B61516CFDF00E03ACF /* MainMenuController.h */,
+				5D2568B71516CFDF00E03ACF /* MainMenuController.m */,
+				5D2568C11516CFDF00E03ACF /* TypeSelectionController.h */,
+				5D2568C21516CFDF00E03ACF /* TypeSelectionController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5D2568A01516CFDF00E03ACF /* Detail Pages */ = {
+			isa = PBXGroup;
+			children = (
+				5D2568A11516CFDF00E03ACF /* ArtistViewController.h */,
+				5D2568A21516CFDF00E03ACF /* ArtistViewController.m */,
+				5D2568A31516CFDF00E03ACF /* LabelViewController.h */,
+				5D2568A41516CFDF00E03ACF /* LabelViewController.m */,
+				5D2568A51516CFDF00E03ACF /* ReleaseContoller.h */,
+				5D2568A61516CFDF00E03ACF /* ReleaseContoller.m */,
+				5D2568A71516CFDF00E03ACF /* ReleaseViewController.h */,
+				5D2568A81516CFDF00E03ACF /* ReleaseViewController.m */,
+				5D2568A91516CFDF00E03ACF /* TrackViewController.h */,
+				5D2568AA1516CFDF00E03ACF /* TrackViewController.m */,
+			);
+			path = "Detail Pages";
+			sourceTree = "<group>";
+		};
+		5D2568AB1516CFDF00E03ACF /* Detail Subpages */ = {
+			isa = PBXGroup;
+			children = (
+				5D2568AC1516CFDF00E03ACF /* AddTagViewController.h */,
+				5D2568AD1516CFDF00E03ACF /* AddTagViewController.m */,
+				5D2568AE1516CFDF00E03ACF /* RatingViewController.h */,
+				5D2568AF1516CFDF00E03ACF /* RatingViewController.m */,
+				5D2568B01516CFDF00E03ACF /* TagListViewController.h */,
+				5D2568B11516CFDF00E03ACF /* TagListViewController.m */,
+			);
+			path = "Detail Subpages";
+			sourceTree = "<group>";
+		};
+		5D2568B81516CFDF00E03ACF /* Search Result Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D2568B91516CFDF00E03ACF /* ArtistSearchController.h */,
+				5D2568BA1516CFDF00E03ACF /* ArtistSearchController.m */,
+				5D2568BB1516CFDF00E03ACF /* LabelSearchController.h */,
+				5D2568BC1516CFDF00E03ACF /* LabelSearchController.m */,
+				5D2568BD1516CFDF00E03ACF /* ReleaseGroupSearchController.h */,
+				5D2568BE1516CFDF00E03ACF /* ReleaseGroupSearchController.m */,
+				5D2568BF1516CFDF00E03ACF /* ReleaseSearchController.h */,
+				5D2568C01516CFDF00E03ACF /* ReleaseSearchController.m */,
+			);
+			path = "Search Result Views";
+			sourceTree = "<group>";
+		};
+		5D2568D31516D03600E03ACF /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5D2568D41516D03600E03ACF /* main.m */,
+				5D2568D51516D03600E03ACF /* Musicbrainz_Prefix.pch */,
+				5D2568D61516D03600E03ACF /* StringEditTableCell.h */,
+				5D2568D71516D03600E03ACF /* StringEditTableCell.m */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		5D2568DA1516D06400E03ACF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D2568DB1516D06400E03ACF /* albumcover.jpg */,
+				5D2568DC1516D06400E03ACF /* icon.png */,
+				5D2568DD1516D06400E03ACF /* MainWindow.xib */,
+				5D2568DE1516D06400E03ACF /* Musicbrainz-Info.plist */,
+				5D2568DF1516D06400E03ACF /* MusicBrainzLogo.png */,
+				5D2568E01516D06400E03ACF /* ratedStar.png */,
+				5D2568E11516D06400E03ACF /* unratedStar.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D99C84015D04E6800AA7847 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				5D99C84215D04E8100AA7847 /* libmusicbrainz-objc.xcodeproj */,
+			);
+			name = Submodules;
+			sourceTree = "<group>";
+		};
+		5D99C84315D04E8100AA7847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D99C85015D04E8100AA7847 /* libmusicbrainz-ios.a */,
+				5D99C85215D04E8100AA7847 /* libmusicbrainz-macos.framework */,
+				5D99C85415D04E8100AA7847 /* libmusicbrainz-objc-iphoneos-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D99C86D15D04F0900AA7847 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D99C86615D04F0900AA7847 /* UIKit.framework */,
+				5D99C86715D04F0900AA7847 /* Foundation.framework */,
+				5D99C86815D04F0900AA7847 /* CFNetwork.framework */,
+				5D99C86915D04F0900AA7847 /* SystemConfiguration.framework */,
+				5D99C86A15D04F0900AA7847 /* Security.framework */,
+				5D99C86B15D04F0900AA7847 /* MobileCoreServices.framework */,
+				5D99C86C15D04F0900AA7847 /* libxml2.dylib */,
+			);
+			name = iOS;
+			path = "submodules/libmusicbrainz-objc";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Musicbrainz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Musicbrainz" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D99C85615D04E9100AA7847 /* PBXTargetDependency */,
+			);
+			name = Musicbrainz;
+			productName = Musicbrainz;
+			productReference = 1D6058910D05DD3D006BFB54 /* Musicbrainz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Musicbrainz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5D99C84315D04E8100AA7847 /* Products */;
+					ProjectRef = 5D99C84215D04E8100AA7847 /* libmusicbrainz-objc.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Musicbrainz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5D99C85015D04E8100AA7847 /* libmusicbrainz-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmusicbrainz-ios.a";
+			remoteRef = 5D99C84F15D04E8100AA7847 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D99C85215D04E8100AA7847 /* libmusicbrainz-macos.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "libmusicbrainz-macos.framework";
+			remoteRef = 5D99C85115D04E8100AA7847 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5D99C85415D04E8100AA7847 /* libmusicbrainz-objc-iphoneos-test.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "libmusicbrainz-objc-iphoneos-test.app";
+			remoteRef = 5D99C85315D04E8100AA7847 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2567FC1516B9AF00E03ACF /* MainWindow-iPad.xib in Resources */,
+				5D2568E21516D06400E03ACF /* albumcover.jpg in Resources */,
+				5D2568E31516D06400E03ACF /* icon.png in Resources */,
+				5D2568E41516D06400E03ACF /* MainWindow.xib in Resources */,
+				5D2568E61516D06400E03ACF /* MusicBrainzLogo.png in Resources */,
+				5D2568E71516D06400E03ACF /* ratedStar.png in Resources */,
+				5D2568E81516D06400E03ACF /* unratedStar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2568C31516CFDF00E03ACF /* ArtistViewController.m in Sources */,
+				5D2568C41516CFDF00E03ACF /* LabelViewController.m in Sources */,
+				5D2568C51516CFDF00E03ACF /* ReleaseContoller.m in Sources */,
+				5D2568C61516CFDF00E03ACF /* ReleaseViewController.m in Sources */,
+				5D2568C71516CFDF00E03ACF /* TrackViewController.m in Sources */,
+				5D2568C81516CFDF00E03ACF /* AddTagViewController.m in Sources */,
+				5D2568C91516CFDF00E03ACF /* RatingViewController.m in Sources */,
+				5D2568CA1516CFDF00E03ACF /* TagListViewController.m in Sources */,
+				5D2568CB1516CFDF00E03ACF /* DonateViewController.m in Sources */,
+				5D2568CC1516CFDF00E03ACF /* LoginViewController.m in Sources */,
+				5D2568CD1516CFDF00E03ACF /* MainMenuController.m in Sources */,
+				5D2568CE1516CFDF00E03ACF /* ArtistSearchController.m in Sources */,
+				5D2568CF1516CFDF00E03ACF /* LabelSearchController.m in Sources */,
+				5D2568D01516CFDF00E03ACF /* ReleaseGroupSearchController.m in Sources */,
+				5D2568D11516CFDF00E03ACF /* ReleaseSearchController.m in Sources */,
+				5D2568D21516CFDF00E03ACF /* TypeSelectionController.m in Sources */,
+				5D2568D81516D03600E03ACF /* main.m in Sources */,
+				5D2568D91516D03600E03ACF /* StringEditTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D99C85615D04E9100AA7847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libmusicbrainz-iphoneos";
+			targetProxy = 5D99C85515D04E9100AA7847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Resources/Musicbrainz_Prefix.pch;
+				INFOPLIST_FILE = "Resources/Musicbrainz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/PayPal\"",
+					"\"$(SRCROOT)/ZBarSDK\"",
+				);
+				PRODUCT_NAME = Musicbrainz;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Resources/Musicbrainz_Prefix.pch;
+				INFOPLIST_FILE = "Resources/Musicbrainz-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/PayPal\"",
+					"\"$(SRCROOT)/ZBarSDK\"",
+				);
+				PRODUCT_NAME = Musicbrainz;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Musicbrainz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Musicbrainz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DC04B8215D2F8F500972113 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04B8115D2F8F500972113 /* UIKit.framework */; };
+		5DC04B8415D2F8F500972113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04B8315D2F8F500972113 /* Foundation.framework */; };
+		5DC04B8615D2F8F500972113 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04B8515D2F8F500972113 /* CoreGraphics.framework */; };
+		5DC04B8C15D2F8F500972113 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DC04B8A15D2F8F500972113 /* InfoPlist.strings */; };
+		5DC04B8E15D2F8F500972113 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC04B8D15D2F8F500972113 /* main.m */; };
+		5DC04B9215D2F8F500972113 /* MBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC04B9115D2F8F500972113 /* MBAppDelegate.m */; };
+		5DC04B9515D2F8F500972113 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC04B9315D2F8F500972113 /* MainStoryboard_iPhone.storyboard */; };
+		5DC04B9815D2F8F500972113 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC04B9615D2F8F500972113 /* MainStoryboard_iPad.storyboard */; };
+		5DC04B9B15D2F8F500972113 /* MBMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC04B9A15D2F8F500972113 /* MBMasterViewController.m */; };
+		5DC04B9E15D2F8F500972113 /* MBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC04B9D15D2F8F500972113 /* MBDetailViewController.m */; };
+		5DC04BFB15D2FAEA00972113 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04BF415D2FAEA00972113 /* UIKit.framework */; };
+		5DC04BFC15D2FAEA00972113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04BF515D2FAEA00972113 /* Foundation.framework */; };
+		5DC04BFD15D2FAEA00972113 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04BF615D2FAEA00972113 /* CFNetwork.framework */; };
+		5DC04BFE15D2FAEA00972113 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04BF715D2FAEA00972113 /* SystemConfiguration.framework */; };
+		5DC04BFF15D2FAEA00972113 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04BF815D2FAEA00972113 /* Security.framework */; };
+		5DC04C0015D2FAEA00972113 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04BF915D2FAEA00972113 /* MobileCoreServices.framework */; };
+		5DC04C0115D2FAEA00972113 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04BFA15D2FAEA00972113 /* libxml2.dylib */; };
+		5DC04C0315D2FB1700972113 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04C0215D2FB1700972113 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5DC04C0415D2FB2900972113 /* libmusicbrainz-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04BB815D2F9D100972113 /* libmusicbrainz-ios.a */; };
+		5DC04C0615D2FB5100972113 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04C0515D2FB5100972113 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5DC04C0815D2FB6800972113 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04C0715D2FB6800972113 /* CoreVideo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		5DC04C0A15D2FB7D00972113 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04C0915D2FB7D00972113 /* QuartzCore.framework */; };
+		5DC04C0C15D2FB8A00972113 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04C0B15D2FB8A00972113 /* libiconv.dylib */; };
+		5DC04C0D15D2FBAD00972113 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04BDD15D2FAB500972113 /* libzbar.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DC04BB715D2F9D100972113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DC04BAA15D2F9D000972113 /* libmusicbrainz-objc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D61B7CB155F3F9A0003006A;
+			remoteInfo = "libmusicbrainz-iphoneos";
+		};
+		5DC04BB915D2F9D100972113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DC04BAA15D2F9D000972113 /* libmusicbrainz-objc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D5D03BA158103DD00E8A525;
+			remoteInfo = "libmusicbrainz-macos";
+		};
+		5DC04BBB15D2F9D100972113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DC04BAA15D2F9D000972113 /* libmusicbrainz-objc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D82781015AD22C200B4A8EB;
+			remoteInfo = "libmusicbrainz-objc-iphoneos-test";
+		};
+		5DC04BDC15D2FAB500972113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DC04BD115D2FAB400972113 /* zbar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = libzbar;
+		};
+		5DC04BDE15D2FAB500972113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DC04BD115D2FAB400972113 /* zbar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC3CEF9D121633C500D7A786;
+			remoteInfo = readertest;
+		};
+		5DC04BF015D2FAC300972113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DC04BAA15D2F9D000972113 /* libmusicbrainz-objc.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D61B7CA155F3F9A0003006A;
+			remoteInfo = "libmusicbrainz-iphoneos";
+		};
+		5DC04BF215D2FAC800972113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DC04BD115D2FAB400972113 /* zbar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3CEE821215C7EF00D7A786;
+			remoteInfo = ZBarSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DC04B7D15D2F8F500972113 /* Musicbrainz-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Musicbrainz-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC04B8115D2F8F500972113 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DC04B8315D2F8F500972113 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DC04B8515D2F8F500972113 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5DC04B8915D2F8F500972113 /* Musicbrainz-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Musicbrainz-ios-Info.plist"; sourceTree = "<group>"; };
+		5DC04B8B15D2F8F500972113 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DC04B8D15D2F8F500972113 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DC04B8F15D2F8F500972113 /* Musicbrainz-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Musicbrainz-ios-Prefix.pch"; sourceTree = "<group>"; };
+		5DC04B9015D2F8F500972113 /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
+		5DC04B9115D2F8F500972113 /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
+		5DC04B9415D2F8F500972113 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5DC04B9715D2F8F500972113 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5DC04B9915D2F8F500972113 /* MBMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBMasterViewController.h; sourceTree = "<group>"; };
+		5DC04B9A15D2F8F500972113 /* MBMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBMasterViewController.m; sourceTree = "<group>"; };
+		5DC04B9C15D2F8F500972113 /* MBDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBDetailViewController.h; sourceTree = "<group>"; };
+		5DC04B9D15D2F8F500972113 /* MBDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBDetailViewController.m; sourceTree = "<group>"; };
+		5DC04BAA15D2F9D000972113 /* libmusicbrainz-objc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "libmusicbrainz-objc.xcodeproj"; path = "submodules/libmusicbrainz-objc/libmusicbrainz-objc.xcodeproj"; sourceTree = "<group>"; };
+		5DC04BD115D2FAB400972113 /* zbar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zbar.xcodeproj; path = submodules/zbarsdk/iphone/zbar.xcodeproj; sourceTree = "<group>"; };
+		5DC04BF415D2FAEA00972113 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5DC04BF515D2FAEA00972113 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5DC04BF615D2FAEA00972113 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		5DC04BF715D2FAEA00972113 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		5DC04BF815D2FAEA00972113 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		5DC04BF915D2FAEA00972113 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		5DC04BFA15D2FAEA00972113 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
+		5DC04C0215D2FB1700972113 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5DC04C0515D2FB5100972113 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5DC04C0715D2FB6800972113 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5DC04C0915D2FB7D00972113 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5DC04C0B15D2FB8A00972113 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DC04B7A15D2F8F500972113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC04C0D15D2FBAD00972113 /* libzbar.a in Frameworks */,
+				5DC04C0C15D2FB8A00972113 /* libiconv.dylib in Frameworks */,
+				5DC04C0A15D2FB7D00972113 /* QuartzCore.framework in Frameworks */,
+				5DC04C0815D2FB6800972113 /* CoreVideo.framework in Frameworks */,
+				5DC04C0615D2FB5100972113 /* CoreMedia.framework in Frameworks */,
+				5DC04C0315D2FB1700972113 /* AVFoundation.framework in Frameworks */,
+				5DC04B8215D2F8F500972113 /* UIKit.framework in Frameworks */,
+				5DC04B8415D2F8F500972113 /* Foundation.framework in Frameworks */,
+				5DC04B8615D2F8F500972113 /* CoreGraphics.framework in Frameworks */,
+				5DC04BFB15D2FAEA00972113 /* UIKit.framework in Frameworks */,
+				5DC04BFC15D2FAEA00972113 /* Foundation.framework in Frameworks */,
+				5DC04BFD15D2FAEA00972113 /* CFNetwork.framework in Frameworks */,
+				5DC04C0415D2FB2900972113 /* libmusicbrainz-ios.a in Frameworks */,
+				5DC04C0015D2FAEA00972113 /* MobileCoreServices.framework in Frameworks */,
+				5DC04C0115D2FAEA00972113 /* libxml2.dylib in Frameworks */,
+				5DC04BFE15D2FAEA00972113 /* SystemConfiguration.framework in Frameworks */,
+				5DC04BFF15D2FAEA00972113 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DC04B7215D2F8F500972113 = {
+			isa = PBXGroup;
+			children = (
+				5DC04B8715D2F8F500972113 /* Classes */,
+				5DC04B8015D2F8F500972113 /* Frameworks */,
+				5DC04B7E15D2F8F500972113 /* Products */,
+				5DC04BA915D2F9B100972113 /* Submodules */,
+			);
+			sourceTree = "<group>";
+		};
+		5DC04B7E15D2F8F500972113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DC04B7D15D2F8F500972113 /* Musicbrainz-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DC04B8015D2F8F500972113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DC04BFA15D2FAEA00972113 /* libxml2.dylib */,
+				5DC04C0B15D2FB8A00972113 /* libiconv.dylib */,
+				5DC04C0915D2FB7D00972113 /* QuartzCore.framework */,
+				5DC04C0715D2FB6800972113 /* CoreVideo.framework */,
+				5DC04C0515D2FB5100972113 /* CoreMedia.framework */,
+				5DC04C0215D2FB1700972113 /* AVFoundation.framework */,
+				5DC04BF415D2FAEA00972113 /* UIKit.framework */,
+				5DC04BF515D2FAEA00972113 /* Foundation.framework */,
+				5DC04BF615D2FAEA00972113 /* CFNetwork.framework */,
+				5DC04BF715D2FAEA00972113 /* SystemConfiguration.framework */,
+				5DC04BF815D2FAEA00972113 /* Security.framework */,
+				5DC04BF915D2FAEA00972113 /* MobileCoreServices.framework */,
+				5DC04B8115D2F8F500972113 /* UIKit.framework */,
+				5DC04B8315D2F8F500972113 /* Foundation.framework */,
+				5DC04B8515D2F8F500972113 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DC04B8715D2F8F500972113 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5DC04B9015D2F8F500972113 /* MBAppDelegate.h */,
+				5DC04B9115D2F8F500972113 /* MBAppDelegate.m */,
+				5DC04B9315D2F8F500972113 /* MainStoryboard_iPhone.storyboard */,
+				5DC04B9615D2F8F500972113 /* MainStoryboard_iPad.storyboard */,
+				5DC04B9915D2F8F500972113 /* MBMasterViewController.h */,
+				5DC04B9A15D2F8F500972113 /* MBMasterViewController.m */,
+				5DC04B9C15D2F8F500972113 /* MBDetailViewController.h */,
+				5DC04B9D15D2F8F500972113 /* MBDetailViewController.m */,
+				5DC04B8815D2F8F500972113 /* Supporting Files */,
+			);
+			name = Classes;
+			path = "Musicbrainz-ios";
+			sourceTree = "<group>";
+		};
+		5DC04B8815D2F8F500972113 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DC04B8915D2F8F500972113 /* Musicbrainz-ios-Info.plist */,
+				5DC04B8A15D2F8F500972113 /* InfoPlist.strings */,
+				5DC04B8D15D2F8F500972113 /* main.m */,
+				5DC04B8F15D2F8F500972113 /* Musicbrainz-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DC04BA915D2F9B100972113 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				5DC04BAA15D2F9D000972113 /* libmusicbrainz-objc.xcodeproj */,
+				5DC04BD115D2FAB400972113 /* zbar.xcodeproj */,
+			);
+			name = Submodules;
+			sourceTree = "<group>";
+		};
+		5DC04BAB15D2F9D000972113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DC04BB815D2F9D100972113 /* libmusicbrainz-ios.a */,
+				5DC04BBA15D2F9D100972113 /* libmusicbrainz-macos.framework */,
+				5DC04BBC15D2F9D100972113 /* libmusicbrainz-objc-iphoneos-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DC04BD215D2FAB400972113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DC04BDD15D2FAB500972113 /* libzbar.a */,
+				5DC04BDF15D2FAB500972113 /* readertest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DC04B7C15D2F8F500972113 /* Musicbrainz-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC04BA115D2F8F500972113 /* Build configuration list for PBXNativeTarget "Musicbrainz-ios" */;
+			buildPhases = (
+				5DC04B7915D2F8F500972113 /* Sources */,
+				5DC04B7A15D2F8F500972113 /* Frameworks */,
+				5DC04B7B15D2F8F500972113 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DC04BF115D2FAC300972113 /* PBXTargetDependency */,
+				5DC04BF315D2FAC800972113 /* PBXTargetDependency */,
+			);
+			name = "Musicbrainz-ios";
+			productName = "Musicbrainz-ios";
+			productReference = 5DC04B7D15D2F8F500972113 /* Musicbrainz-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DC04B7415D2F8F500972113 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MB;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Joachim LeBlanc";
+			};
+			buildConfigurationList = 5DC04B7715D2F8F500972113 /* Build configuration list for PBXProject "Musicbrainz-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DC04B7215D2F8F500972113;
+			productRefGroup = 5DC04B7E15D2F8F500972113 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5DC04BAB15D2F9D000972113 /* Products */;
+					ProjectRef = 5DC04BAA15D2F9D000972113 /* libmusicbrainz-objc.xcodeproj */;
+				},
+				{
+					ProductGroup = 5DC04BD215D2FAB400972113 /* Products */;
+					ProjectRef = 5DC04BD115D2FAB400972113 /* zbar.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5DC04B7C15D2F8F500972113 /* Musicbrainz-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5DC04BB815D2F9D100972113 /* libmusicbrainz-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmusicbrainz-ios.a";
+			remoteRef = 5DC04BB715D2F9D100972113 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5DC04BBA15D2F9D100972113 /* libmusicbrainz-macos.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "libmusicbrainz-macos.framework";
+			remoteRef = 5DC04BB915D2F9D100972113 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5DC04BBC15D2F9D100972113 /* libmusicbrainz-objc-iphoneos-test.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "libmusicbrainz-objc-iphoneos-test.app";
+			remoteRef = 5DC04BBB15D2F9D100972113 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5DC04BDD15D2FAB500972113 /* libzbar.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzbar.a;
+			remoteRef = 5DC04BDC15D2FAB500972113 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5DC04BDF15D2FAB500972113 /* readertest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = readertest.app;
+			remoteRef = 5DC04BDE15D2FAB500972113 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DC04B7B15D2F8F500972113 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC04B8C15D2F8F500972113 /* InfoPlist.strings in Resources */,
+				5DC04B9515D2F8F500972113 /* MainStoryboard_iPhone.storyboard in Resources */,
+				5DC04B9815D2F8F500972113 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DC04B7915D2F8F500972113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC04B8E15D2F8F500972113 /* main.m in Sources */,
+				5DC04B9215D2F8F500972113 /* MBAppDelegate.m in Sources */,
+				5DC04B9B15D2F8F500972113 /* MBMasterViewController.m in Sources */,
+				5DC04B9E15D2F8F500972113 /* MBDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DC04BF115D2FAC300972113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libmusicbrainz-iphoneos";
+			targetProxy = 5DC04BF015D2FAC300972113 /* PBXContainerItemProxy */;
+		};
+		5DC04BF315D2FAC800972113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZBarSDK;
+			targetProxy = 5DC04BF215D2FAC800972113 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DC04B8A15D2F8F500972113 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DC04B8B15D2F8F500972113 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5DC04B9315D2F8F500972113 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DC04B9415D2F8F500972113 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5DC04B9615D2F8F500972113 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DC04B9715D2F8F500972113 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DC04B9F15D2F8F500972113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DC04BA015D2F8F500972113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DC04BA215D2F8F500972113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Musicbrainz-ios/Musicbrainz-ios-Prefix.pch";
+				INFOPLIST_FILE = "Musicbrainz-ios/Musicbrainz-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5DC04BA315D2F8F500972113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Musicbrainz-ios/Musicbrainz-ios-Prefix.pch";
+				INFOPLIST_FILE = "Musicbrainz-ios/Musicbrainz-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DC04B7715D2F8F500972113 /* Build configuration list for PBXProject "Musicbrainz-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC04B9F15D2F8F500972113 /* Debug */,
+				5DC04BA015D2F8F500972113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DC04BA115D2F8F500972113 /* Build configuration list for PBXNativeTarget "Musicbrainz-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC04BA215D2F8F500972113 /* Debug */,
+				5DC04BA315D2F8F500972113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DC04B7415D2F8F500972113 /* Project object */;
+}

@@ -16,16 +16,14 @@
 		320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320CC833B8AF0ACFD35E6224 /* libThree20Style.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
+		5D13D71915D31CAF005348C3 /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D13D70D15D31CAF005348C3 /* libPayPalMPL.a */; };
+		5D13D71B15D31EBC005348C3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D13D71A15D31EBC005348C3 /* libz.dylib */; };
 		5DC04B8215D2F8F500972113 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04B8115D2F8F500972113 /* UIKit.framework */; };
 		5DC04B8415D2F8F500972113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04B8315D2F8F500972113 /* Foundation.framework */; };
 		5DC04B8615D2F8F500972113 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04B8515D2F8F500972113 /* CoreGraphics.framework */; };
 		5DC04B8C15D2F8F500972113 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DC04B8A15D2F8F500972113 /* InfoPlist.strings */; };
 		5DC04B8E15D2F8F500972113 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC04B8D15D2F8F500972113 /* main.m */; };
 		5DC04B9215D2F8F500972113 /* MBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC04B9115D2F8F500972113 /* MBAppDelegate.m */; };
-		5DC04B9515D2F8F500972113 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC04B9315D2F8F500972113 /* MainStoryboard_iPhone.storyboard */; };
-		5DC04B9815D2F8F500972113 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC04B9615D2F8F500972113 /* MainStoryboard_iPad.storyboard */; };
-		5DC04B9B15D2F8F500972113 /* MBMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC04B9A15D2F8F500972113 /* MBMasterViewController.m */; };
-		5DC04B9E15D2F8F500972113 /* MBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC04B9D15D2F8F500972113 /* MBDetailViewController.m */; };
 		5DC04BFB15D2FAEA00972113 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04BF415D2FAEA00972113 /* UIKit.framework */; };
 		5DC04BFC15D2FAEA00972113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04BF515D2FAEA00972113 /* Foundation.framework */; };
 		5DC04BFD15D2FAEA00972113 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04BF615D2FAEA00972113 /* CFNetwork.framework */; };
@@ -141,6 +139,13 @@
 			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
 			remoteInfo = Three20UI;
 		};
+		5D6DE43715D317A700216A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DC04BAA15D2F9D000972113 /* libmusicbrainz-objc.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DFB065415AE325600CFF95F;
+			remoteInfo = "iOS-Framework";
+		};
 		5D7FFEDE15D30A1100ABA2D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */;
@@ -225,13 +230,6 @@
 			remoteGlobalIDString = DC3CEF9D121633C500D7A786;
 			remoteInfo = readertest;
 		};
-		5DC04BF015D2FAC300972113 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5DC04BAA15D2F9D000972113 /* libmusicbrainz-objc.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D61B7CA155F3F9A0003006A;
-			remoteInfo = "libmusicbrainz-iphoneos";
-		};
 		5DC04BF215D2FAC800972113 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5DC04BD115D2FAB400972113 /* zbar.xcodeproj */;
@@ -251,6 +249,19 @@
 		320CC833B8AF0ACFD35E6220 /* Three20Style.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Style.xcodeproj; path = submodules/three20/src/Three20Style/Three20Style.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = submodules/three20/src/Three20/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = submodules/three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
+		5D13D70D15D31CAF005348C3 /* libPayPalMPL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMPL.a; sourceTree = "<group>"; };
+		5D13D70E15D31CAF005348C3 /* PayPal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPal.h; sourceTree = "<group>"; };
+		5D13D70F15D31CAF005348C3 /* PayPalAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAddress.h; sourceTree = "<group>"; };
+		5D13D71015D31CAF005348C3 /* PayPalAdvancedPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAdvancedPayment.h; sourceTree = "<group>"; };
+		5D13D71115D31CAF005348C3 /* PayPalAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAmounts.h; sourceTree = "<group>"; };
+		5D13D71215D31CAF005348C3 /* PayPalContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalContext.h; sourceTree = "<group>"; };
+		5D13D71315D31CAF005348C3 /* PayPalInvoiceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceData.h; sourceTree = "<group>"; };
+		5D13D71415D31CAF005348C3 /* PayPalInvoiceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceItem.h; sourceTree = "<group>"; };
+		5D13D71515D31CAF005348C3 /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		5D13D71615D31CAF005348C3 /* PayPalPreapprovalDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPreapprovalDetails.h; sourceTree = "<group>"; };
+		5D13D71715D31CAF005348C3 /* PayPalReceiverAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverAmounts.h; sourceTree = "<group>"; };
+		5D13D71815D31CAF005348C3 /* PayPalReceiverPaymentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverPaymentDetails.h; sourceTree = "<group>"; };
+		5D13D71A15D31EBC005348C3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		5DC04B7D15D2F8F500972113 /* Musicbrainz-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Musicbrainz-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC04B8115D2F8F500972113 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5DC04B8315D2F8F500972113 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -261,12 +272,6 @@
 		5DC04B8F15D2F8F500972113 /* Musicbrainz-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Musicbrainz-ios-Prefix.pch"; sourceTree = "<group>"; };
 		5DC04B9015D2F8F500972113 /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
 		5DC04B9115D2F8F500972113 /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
-		5DC04B9415D2F8F500972113 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		5DC04B9715D2F8F500972113 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		5DC04B9915D2F8F500972113 /* MBMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBMasterViewController.h; sourceTree = "<group>"; };
-		5DC04B9A15D2F8F500972113 /* MBMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBMasterViewController.m; sourceTree = "<group>"; };
-		5DC04B9C15D2F8F500972113 /* MBDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBDetailViewController.h; sourceTree = "<group>"; };
-		5DC04B9D15D2F8F500972113 /* MBDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBDetailViewController.m; sourceTree = "<group>"; };
 		5DC04BAA15D2F9D000972113 /* libmusicbrainz-objc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "libmusicbrainz-objc.xcodeproj"; path = "submodules/libmusicbrainz-objc/libmusicbrainz-objc.xcodeproj"; sourceTree = "<group>"; };
 		5DC04BD115D2FAB400972113 /* zbar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zbar.xcodeproj; path = submodules/zbarsdk/iphone/zbar.xcodeproj; sourceTree = "<group>"; };
 		5DC04BF415D2FAEA00972113 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -314,6 +319,8 @@
 				5DC04C0115D2FAEA00972113 /* libxml2.dylib in Frameworks */,
 				5DC04BFE15D2FAEA00972113 /* SystemConfiguration.framework in Frameworks */,
 				5DC04BFF15D2FAEA00972113 /* Security.framework in Frameworks */,
+				5D13D71B15D31EBC005348C3 /* libz.dylib in Frameworks */,
+				5D13D71915D31CAF005348C3 /* libPayPalMPL.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +390,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5D13D70C15D31CAF005348C3 /* PayPal */ = {
+			isa = PBXGroup;
+			children = (
+				5D13D70D15D31CAF005348C3 /* libPayPalMPL.a */,
+				5D13D70E15D31CAF005348C3 /* PayPal.h */,
+				5D13D70F15D31CAF005348C3 /* PayPalAddress.h */,
+				5D13D71015D31CAF005348C3 /* PayPalAdvancedPayment.h */,
+				5D13D71115D31CAF005348C3 /* PayPalAmounts.h */,
+				5D13D71215D31CAF005348C3 /* PayPalContext.h */,
+				5D13D71315D31CAF005348C3 /* PayPalInvoiceData.h */,
+				5D13D71415D31CAF005348C3 /* PayPalInvoiceItem.h */,
+				5D13D71515D31CAF005348C3 /* PayPalPayment.h */,
+				5D13D71615D31CAF005348C3 /* PayPalPreapprovalDetails.h */,
+				5D13D71715D31CAF005348C3 /* PayPalReceiverAmounts.h */,
+				5D13D71815D31CAF005348C3 /* PayPalReceiverPaymentDetails.h */,
+			);
+			name = PayPal;
+			path = submodules/PayPal;
+			sourceTree = "<group>";
+		};
 		5DC04B7215D2F8F500972113 = {
 			isa = PBXGroup;
 			children = (
@@ -405,6 +432,7 @@
 		5DC04B8015D2F8F500972113 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5D13D71A15D31EBC005348C3 /* libz.dylib */,
 				3201088596B4756681693700 /* Three20UICommon.xcodeproj */,
 				320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */,
 				320A737074758E53BA54BE90 /* Three20UINavigator.xcodeproj */,
@@ -437,12 +465,6 @@
 			children = (
 				5DC04B9015D2F8F500972113 /* MBAppDelegate.h */,
 				5DC04B9115D2F8F500972113 /* MBAppDelegate.m */,
-				5DC04B9315D2F8F500972113 /* MainStoryboard_iPhone.storyboard */,
-				5DC04B9615D2F8F500972113 /* MainStoryboard_iPad.storyboard */,
-				5DC04B9915D2F8F500972113 /* MBMasterViewController.h */,
-				5DC04B9A15D2F8F500972113 /* MBMasterViewController.m */,
-				5DC04B9C15D2F8F500972113 /* MBDetailViewController.h */,
-				5DC04B9D15D2F8F500972113 /* MBDetailViewController.m */,
 				5DC04B8815D2F8F500972113 /* Supporting Files */,
 			);
 			name = Classes;
@@ -464,6 +486,7 @@
 		5DC04BA915D2F9B100972113 /* Submodules */ = {
 			isa = PBXGroup;
 			children = (
+				5D13D70C15D31CAF005348C3 /* PayPal */,
 				5DC04BAA15D2F9D000972113 /* libmusicbrainz-objc.xcodeproj */,
 				5DC04BD115D2FAB400972113 /* zbar.xcodeproj */,
 			);
@@ -510,8 +533,8 @@
 				320F2C48872C2E2C4DF86201 /* PBXTargetDependency */,
 				320A5A189C235877202780D1 /* PBXTargetDependency */,
 				320CC833B8AF0ACFD35E6221 /* PBXTargetDependency */,
-				5DC04BF115D2FAC300972113 /* PBXTargetDependency */,
 				5DC04BF315D2FAC800972113 /* PBXTargetDependency */,
+				5D6DE43815D317A700216A17 /* PBXTargetDependency */,
 			);
 			name = "Musicbrainz-ios";
 			productName = "Musicbrainz-ios";
@@ -726,8 +749,6 @@
 			files = (
 				320B6C86F11D9990244A9731 /* Three20.bundle in Resources */,
 				5DC04B8C15D2F8F500972113 /* InfoPlist.strings in Resources */,
-				5DC04B9515D2F8F500972113 /* MainStoryboard_iPhone.storyboard in Resources */,
-				5DC04B9815D2F8F500972113 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -740,8 +761,6 @@
 			files = (
 				5DC04B8E15D2F8F500972113 /* main.m in Sources */,
 				5DC04B9215D2F8F500972113 /* MBAppDelegate.m in Sources */,
-				5DC04B9B15D2F8F500972113 /* MBMasterViewController.m in Sources */,
-				5DC04B9E15D2F8F500972113 /* MBDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -783,10 +802,10 @@
 			name = Three20UI;
 			targetProxy = 320F2C48872C2E2C4DF86202 /* PBXContainerItemProxy */;
 		};
-		5DC04BF115D2FAC300972113 /* PBXTargetDependency */ = {
+		5D6DE43815D317A700216A17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "libmusicbrainz-iphoneos";
-			targetProxy = 5DC04BF015D2FAC300972113 /* PBXContainerItemProxy */;
+			name = "iOS-Framework";
+			targetProxy = 5D6DE43715D317A700216A17 /* PBXContainerItemProxy */;
 		};
 		5DC04BF315D2FAC800972113 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -804,29 +823,13 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		5DC04B9315D2F8F500972113 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5DC04B9415D2F8F500972113 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		5DC04B9615D2F8F500972113 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5DC04B9715D2F8F500972113 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5DC04B9F15D2F8F500972113 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -849,6 +852,8 @@
 					"$(BUILT_PRODUCTS_DIR)/../three20",
 					"$(BUILT_PRODUCTS_DIR)/../../three20",
 					submodules/three20/Build/Products/three20,
+					"$(SDK_ROOT)/usr/include/libxml2",
+					"$(BUILT_PRODUCTS_DIR)/ZBarSDK/Headers",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
@@ -860,7 +865,7 @@
 		5DC04BA015D2F8F500972113 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -876,6 +881,8 @@
 					"$(BUILT_PRODUCTS_DIR)/../three20",
 					"$(BUILT_PRODUCTS_DIR)/../../three20",
 					submodules/three20/Build/Products/three20,
+					"$(SDK_ROOT)/usr/include/libxml2",
+					"$(BUILT_PRODUCTS_DIR)/ZBarSDK/Headers",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -892,6 +899,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Musicbrainz-ios/Musicbrainz-ios-Prefix.pch";
 				INFOPLIST_FILE = "Musicbrainz-ios/Musicbrainz-ios-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/submodules/PayPal\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -903,6 +914,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Musicbrainz-ios/Musicbrainz-ios-Prefix.pch";
 				INFOPLIST_FILE = "Musicbrainz-ios/Musicbrainz-ios-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/submodules/PayPal\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

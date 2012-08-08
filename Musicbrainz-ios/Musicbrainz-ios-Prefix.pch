@@ -8,7 +8,18 @@
 #warning "This project uses features only available in iOS SDK 5.0 and later."
 #endif
 
+#if ! __has_feature(objc_arc)
+# warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
+#endif
+
 #ifdef __OBJC__
 	#import <UIKit/UIKit.h>
 	#import <Foundation/Foundation.h>
+
+// Submodule Imports
+	#import <musicbrainz-ios/MB.h>
+  #import <ZBarSDK/ZBarSDK.h>
+	#import "PayPal.h"
+	#import <Three20/Three20+Additions.h>
+	#import <Three20/Three20.h>
 #endif

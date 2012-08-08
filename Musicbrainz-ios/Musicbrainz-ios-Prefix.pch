@@ -18,7 +18,7 @@
 
 // Submodule Imports
 	#import <musicbrainz-ios/MB.h>
-  #import <ZBarSDK/ZBarSDK.h>
+	#import <ZBarSDK/ZBarSDK.h>
 	#import "PayPal.h"
 	#import <Three20/Three20+Additions.h>
 	#import <Three20/Three20.h>

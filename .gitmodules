@@ -4,3 +4,6 @@
 [submodule "submodules/zbarsdk"]
 	path = submodules/zbarsdk
 	url = git://github.com/demosdemon/zbarsdk.git
+[submodule "submodules/three20"]
+	path = submodules/three20
+	url = git://github.com/facebook/three20.git

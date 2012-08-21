@@ -1,0 +1,35 @@
+//
+//  MBStyleSheet.h
+//  Musicbrainz-ios
+//
+//  Created by Joachim LeBlanc on 8/8/12.
+//  Copyright (c) 2012 Joachim LeBlanc. All rights reserved.
+//
+
+/** COLOR CONSTANTS */
+#define ckBlack						RGBCOLOR(0x00,0x00,0x00)
+#define ckWhite						RGBCOLOR(0xff,0xff,0xff)
+#define ckGrey						RGBCOLOR(0x88,0x88,0x88)
+#define ckTransparent			RGBACOLOR(0x00,0x00,0x00,(0x00/255.0f))
+#define ckMainBg					RGBCOLOR(0xee,0xee,0xee)
+#define ckMainFg					RGBCOLOR(0xff,0xff,0xff)
+#define ckMainText				RGBCOLOR(0x00,0x00,0x00)
+#define ckAuxText					RGBCOLOR(0x66,0x66,0x66)
+#define ckLinkText				RGBCOLOR(0x33,0x66,0xcc)
+#define ckTagRateBg				RGBCOLOR(0xff,0xff,0xff)
+#define ckTagText					RGBCOLOR(0x00,0x00,0x00)
+#define ckListBg					RGBCOLOR(0xff,0xff,0xff)
+#define ckListHead				RGBACOLOR(0x33,0xdd,0xdd,(0xdd/255.0f))
+#define ckListText				RGBCOLOR(0x00,0x00,0x00)
+#define ckListDivider			RGBCOLOR(0xee,0xee,0xee)
+#define ckMBPurpleLight		RGBCOLOR(0xbc,0xae,0xed)
+#define ckMBPurpleMedium	RGBCOLOR(0x73,0x6d,0xab)
+#define ckMBPurpleDark		RGBCOLOR(0x34,0x17,0x6b)
+#define ckMBOrange				RGBCOLOR(0xff,0xba,0x58)
+#define ckMBOrangeDark		RGBCOLOR(0xcc,0x95,0x46)
+
+@interface MBStyleSheet : TTDefaultStyleSheet {
+
+}
+
+@end

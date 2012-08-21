@@ -8,12 +8,57 @@
 
 #import "MBAppDelegate.h"
 
+#ifdef DISTRIBUTION
+#define MB_CLIENT_NAME @"mbios-" VERSION
+#define MB_SERVER_NAME @"musicbrainz.org"
+#define MB_SERVER_PORT @80
+#else
+#define MB_CLIENT_NAME @"mbios-test"
+#define MB_SERVER_NAME @"test.musicbrainz.org"
+#define MB_SERVER_PORT @80
+#endif
+
+#define _TTNavigator()	([TTNavigator navigator])
+#define _TTURLMap()			(_TTNavigator().URLMap)
+
 @implementation MBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-	// Override point for customization after application launch.
+	self.window = [[UIWindow alloc] initWithFrame:TTScreenBounds()];
+	TTDASSERT(self.window != nil);
+	TTDASSERT(_TTNavigator() != nil);
 
+	self.mbConnection = [MBConnection connectionWithClientName:MB_CLIENT_NAME server:MB_SERVER_NAME port:MB_SERVER_PORT];
+
+	_TTNavigator().persistenceMode = TTNavigatorPersistenceModeAll;
+	_TTNavigator().window = self.window;
+	
+	[_TTURLMap() from:@"*" toViewController:[TTWebController class]];
+  [_TTURLMap() from:@"musicbrainz://search" toViewController:nil];
+	[_TTURLMap() from:@"musicbrainz://search/(initWithEntityType:)" toViewController:nil];
+	[_TTURLMap() from:@"musicbrainz://search/(initWithEntityType:)/(query:)" toViewController:nil];
+	[_TTURLMap() from:@"musicbrainz://search/(initWithEntityType:)/(query:)/(page:)" toViewController:nil];
+	[_TTURLMap() from:@"musicbrainz://scan" toViewController:nil];
+  [_TTURLMap() from:@"musicbrainz://collections" toViewController:nil];
+	[_TTURLMap() from:@"musicbrainz://collections/(initWithCollectionId:)" toViewController:nil];
+	[_TTURLMap() from:@"musicbrainz://collections/()/#add/(addRelease:)" toViewController:nil];
+	[_TTURLMap() from:@"musicbrainz://collections/()/#del/(delRelease:)" toViewController:nil];
+	[_TTURLMap() from:@"musicbrainz://(initWithEntityType:)" toViewController:nil];
+	[_TTURLMap() from:@"musicbrainz://(initWithEntityType:)/(id:)" toViewController:nil];
+	[_TTURLMap() from:@"musicbrainz://(initWithEntityType:)/(id:)" toViewController:nil];
+
+	if (![_TTNavigator() restoreViewControllers]) {
+    // This is the first launch, so we just start with the tab bar
+    [_TTNavigator() openURLAction:[TTURLAction actionWithURLPath:@"http://musicbrainz.org/"]];
+  }
+
+	return YES;
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+	[[TTNavigator navigator] openURLAction:[TTURLAction actionWithURLPath:url.absoluteString]];
 	return YES;
 }
 

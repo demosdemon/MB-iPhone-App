@@ -18,6 +18,7 @@
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
 		5D13D71915D31CAF005348C3 /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D13D70D15D31CAF005348C3 /* libPayPalMPL.a */; };
 		5D13D71B15D31EBC005348C3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D13D71A15D31EBC005348C3 /* libz.dylib */; };
+		5D13D71E15D32431005348C3 /* MBStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D13D71D15D32431005348C3 /* MBStyleSheet.m */; };
 		5DC04B8215D2F8F500972113 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04B8115D2F8F500972113 /* UIKit.framework */; };
 		5DC04B8415D2F8F500972113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04B8315D2F8F500972113 /* Foundation.framework */; };
 		5DC04B8615D2F8F500972113 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC04B8515D2F8F500972113 /* CoreGraphics.framework */; };
@@ -262,6 +263,8 @@
 		5D13D71715D31CAF005348C3 /* PayPalReceiverAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverAmounts.h; sourceTree = "<group>"; };
 		5D13D71815D31CAF005348C3 /* PayPalReceiverPaymentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverPaymentDetails.h; sourceTree = "<group>"; };
 		5D13D71A15D31EBC005348C3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5D13D71C15D32431005348C3 /* MBStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBStyleSheet.h; sourceTree = "<group>"; };
+		5D13D71D15D32431005348C3 /* MBStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBStyleSheet.m; sourceTree = "<group>"; };
 		5DC04B7D15D2F8F500972113 /* Musicbrainz-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Musicbrainz-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC04B8115D2F8F500972113 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5DC04B8315D2F8F500972113 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -463,6 +466,8 @@
 		5DC04B8715D2F8F500972113 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5D13D71C15D32431005348C3 /* MBStyleSheet.h */,
+				5D13D71D15D32431005348C3 /* MBStyleSheet.m */,
 				5DC04B9015D2F8F500972113 /* MBAppDelegate.h */,
 				5DC04B9115D2F8F500972113 /* MBAppDelegate.m */,
 				5DC04B8815D2F8F500972113 /* Supporting Files */,
@@ -761,6 +766,7 @@
 			files = (
 				5DC04B8E15D2F8F500972113 /* main.m in Sources */,
 				5DC04B9215D2F8F500972113 /* MBAppDelegate.m in Sources */,
+				5D13D71E15D32431005348C3 /* MBStyleSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,7 +858,7 @@
 					"$(BUILT_PRODUCTS_DIR)/../three20",
 					"$(BUILT_PRODUCTS_DIR)/../../three20",
 					submodules/three20/Build/Products/three20,
-					"$(SDK_ROOT)/usr/include/libxml2",
+					"$(SDKROOT)/usr/include/libxml2",
 					"$(BUILT_PRODUCTS_DIR)/ZBarSDK/Headers",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
@@ -881,7 +887,7 @@
 					"$(BUILT_PRODUCTS_DIR)/../three20",
 					"$(BUILT_PRODUCTS_DIR)/../../three20",
 					submodules/three20/Build/Products/three20,
-					"$(SDK_ROOT)/usr/include/libxml2",
+					"$(SDKROOT)/usr/include/libxml2",
 					"$(BUILT_PRODUCTS_DIR)/ZBarSDK/Headers",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
